@@ -1,0 +1,85 @@
+/* register.css */
+
+/* Resetten der Standardmargen und -abstände für eine bessere Konsistenz */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Hintergrund und Schriftarten */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(https://img.freepik.com/free-vector/realistic-hexagonal-background_79603-1646.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Login-Formular-Stile */
+.container {
+    background-color: rgba(137, 137, 137, 0.703); /* Hintergrundfarbe mit Transparenz */
+    padding: 40px;
+    border-radius: 8px;
+    /* Schattierung um den Container */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); /* Hier kann der Wert der Schattierung angepasst werden */
+    max-width: 400px;
+    width: 100%;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/*logo*/
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    margin-right: 50px;
+    padding-right: 50px;
+}
+
+#logo{
+  width: 400px;
+  height: auto;
+  filter: brightness(1000000000000000000000000000000000000);
+}
+
+.logi {
+    color: white; /* Den Text weiß machen */
+}
+  
+.logintext {
+    color: white;
+    text-decoration: none;
+}

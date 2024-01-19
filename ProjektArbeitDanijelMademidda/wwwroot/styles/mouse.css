@@ -1,0 +1,190 @@
+/*body*/
+
+
+
+ body{
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-top: 200px;
+
+  padding-left: 30px;
+  padding-right:  30px;
+  background: transparent;
+  padding-bottom: 50px;
+  background-image: url(https://img.freepik.com/free-vector/gradient-cyber-futuristic-background_23-2149117429.jpg);
+}
+
+header{
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: transparent;
+}
+
+.Buy{
+  position: fixed;
+  text-align: center;
+  display: inline-block;
+  margin-right: 10px;
+  padding-bottom: 20px;
+}
+
+.buya{
+  position: fixed;
+  display: block;
+  padding: 10px;
+  border-radius: 20px;
+  background: linear-gradient(to right, violet, indigo, blue, green, yellow, orange, red);
+  background-size: 1500% auto;
+  animation: neon-rainbow 10s linear infinite;
+  text-decoration: none;
+  text-shadow: 2px 2px 2px white;
+  color: #333;
+  font-size: 30px;
+  transition: 1s;
+}
+
+
+@keyframes neon-rainbow {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+
+.buya:hover{
+  font-size: 50px;
+  font-stretch: 50px;
+  transition: 1s;
+}
+
+/*All*/
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/*logo*/
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+}
+
+#logo{
+  width: 100%;
+  height: auto;
+  filter: brightness(100000000000000);
+  transition: 1s;
+}
+
+#logo:hover{
+  width: 110%;
+  height: auto;
+  filter: brightness(10000000000000000);
+  transition: 1s;
+}
+
+#logo:hover
+
+/*navigation*/
+div nav{
+    text-align: center;
+}
+
+div nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+
+  div nav li {
+    display: inline-block;
+    margin-right: 10px;
+    padding-bottom: 20px;
+  }
+  
+div nav a {
+    display: block;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: #BEE3A3;
+    text-decoration: none;
+    color: #333;
+    font-size: 30px;
+  }
+
+
+div nav a:hover {
+    background-color: #ccc;
+  }
+
+/*ads*/
+  .mainad{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+  }
+
+.keyad{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+  margin-bottom: 50px;
+}
+
+.one{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding-bottom: 1px;
+}
+
+.two{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  width: 100%;
+}
+
+.three{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  width: 100%;
+}
+
+.four{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  width: 100%;
+}  
+
+/*balken*/
+  .balken{
+    background-color: white;
+    padding-top: 1px;
+    padding-bottom: 1px;
+  }
+
+
+/*Footer*/
+
+footer p{
+  background-color: #2931E1;
+  color: white;
+  text-decoration: none;
+}

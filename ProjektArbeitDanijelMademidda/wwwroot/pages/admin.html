@@ -1,0 +1,39 @@
+﻿<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin</title>
+    <link rel="stylesheet" href="../styles/admin.css">
+    <script src="/scripts/admin.js"></script>
+    <script src="/scripts/users-api.js"></script>
+</head>
+<body>
+    <header>
+        <div class="backlogo">
+            <div class="logo">
+                <img id="logo" src="../pic/CSC Logo.png" alt="Logo">
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <div>
+            <div><label>Username</label></div>
+            <input type="text" id="username-input" placeholder="Username" required>
+        </div>
+        <br>
+        <div>
+            <div><label>Password:</label></div>
+            <input type="password" id="password-input" placeholder="password" required>
+        </div>
+        <br>
+        <div class="regi">
+            <a class="registertext" href="../pages/register.html">Register?</a></li>
+        </div>
+        <div><h1 id="admin-error"></h1></div>
+        <div>
+            <button type="button" onclick="submitAdminForm()">Admin</button>
+        </div>
+    </div>
+</body>
+</html>

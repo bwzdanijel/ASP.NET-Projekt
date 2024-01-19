@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="../styles/register.css">
+    <script src="/scripts/register.js"></script>
+    <script src="/scripts/users-api.js"></script>
+</head>
+<body>
+    <header>
+        <div class="backlogo">
+            <div class="logo">
+                <img id="logo" src="../pic/CSC Logo.png" alt="Logo">
+            </div>
+        </div>
+    </header>
+<div class="container">
+    <form>
+        <div>
+            <div><label>Username</label></div>
+            <input type="text" id="username-input" placeholder="Username" required>
+        </div>
+        <br>
+        <div>
+            <div><label>Password:</label></div>
+            <input type="password" id="password-input" placeholder="password" required>
+        </div>
+        <br>
+        <div>
+            <div><label>Confirm Password</label></div>
+            <input type="password" id="password-confirm" placeholder="confirm password" required>
+        </div>
+        <br>
+        <div class="logi">
+            <a class="logintext" href="../pages/login.html">Login?</a></li>
+        </div>
+        <div><h1 id="register-error"></h1></div>
+        <div>
+            <button type="button" onclick="submitRegisterForm()">Register</button>
+        </div>
+    </form>
+</div>
+</body>
+</html>

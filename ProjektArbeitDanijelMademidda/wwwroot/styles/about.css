@@ -1,0 +1,163 @@
+
+
+/*Body*/
+
+
+body {
+    background-color: #FCE6B6;
+  }
+  
+  
+  
+  
+  /*All*/
+  *{
+      font-family: Arial, Helvetica, sans-serif;
+      padding-left: 20px;
+      padding-right: 20px;
+  }
+  
+  /*logo*/
+  .logo{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #FCE6B6;
+  }
+  
+  #logo{
+    width: 400px;
+    height: auto;
+    filter: brightness(0.5);
+  }
+  
+  /*navigation*/
+  div nav{
+      text-align: center;
+  }
+  
+  div nav ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+  
+  
+    div nav li {
+      display: inline-block;
+      margin-right: 10px;
+      padding-bottom: 20px;
+    }
+    
+  div nav a {
+      display: block;
+      padding: 10px;
+      border-radius: 20px;
+      background-color: #FECFAA;
+      text-decoration: none;
+      color: #333;
+      font-size: 30px;
+    }
+  
+  
+  div nav a:hover {
+      background-color: #ccc;
+    }
+  
+  
+  /*ads*/
+  
+  .mainad{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding-top: 20px;
+  }
+  
+  .keyad{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+  margin-bottom: 50px;
+  width: 100%;
+  height: auto;
+  }
+  
+  
+  .mainmouse {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 1px;
+    object-fit: cover;
+  }
+  
+  .mainkey {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  
+  /*balken*/
+    .balken{
+      background-color: white;
+      padding-top: 1px;
+      padding-bottom: 1px;
+    }
+  
+  
+  /*Footer*/
+  
+  footer p{
+    background-color: #2931E1;
+    color: white;
+  }
+
+
+
+.scroll-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #333;
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    font-size: 20px;
+    text-decoration: none;
+  }
+  
+  .scroll-top:hover {
+    background-color: #555;
+  }
+  
+  .scroll-top i {
+    transform: rotate(-45deg);
+  }
+  
+
+  .team{
+    display: inline-flexbox;
+  }
+
+  .dani{
+    display: block;
+    width: 100%;
+  }
+
+  .made{
+    display: block;
+    width: 100%;
+    height: auto;
+  }
